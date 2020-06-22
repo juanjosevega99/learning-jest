@@ -1,5 +1,5 @@
-const text = "Hello World";
+const text = "Onta Deadpool";
 
-test("Must have a text", () => {
-  expect(text).toMatch(/World/);
+test("It should has the word Deadpool", () => {
+  expect(text).toMatch(/Deadpool/);
 });
