@@ -43,18 +43,18 @@ test("The promise should return a reserved word", () => {
   });
 });
 
-// test async-await
-test("the async-await block code should return a reversed word", async () => {
-  const str = await reverseStringPromise("nike");
-  expect(str).toBe("ekin");
-});
+// // test async-await
+// test("the async-await block code should return a reversed word", async () => {
+//   const str = await reverseStringPromise("nike");
+//   expect(str).toBe("ekin");
+// });
 
-// Function that runs after each test.
-afterEach(() => console.log("After each test"));
-// Function that runs after all tests.
-afterAll(() => console.log("All the test ended."));
+// // Function that runs after each test.
+// afterEach(() => console.log("After each test"));
+// // Function that runs after all tests.
+// afterAll(() => console.log("All the test ended."));
 
-// Function that runs before each tests.
-beforeEach(() => console.log("Before each test"));
-// Function that runs before all tests.
-beforeAll(() => console.log("Beginning of all the tests"));
+// // Function that runs before each tests.
+// beforeEach(() => console.log("Before each test"));
+// // Function that runs before all tests.
+// beforeAll(() => console.log("Beginning of all the tests"));
